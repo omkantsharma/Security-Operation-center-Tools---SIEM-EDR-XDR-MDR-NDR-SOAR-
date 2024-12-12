@@ -1,0 +1,7 @@
+SOC Analysts are responsible for:
+
+Monitoring: Continuously reviewing logs, alerts, and telemetry data for suspicious activities.
+Analysis: Investigating alerts and determining their legitimacy (true positives vs. false positives).
+Threat Hunting: Proactively searching for threats that bypass automated detection.
+Incident Response: Mitigating threats through containment, eradication, and recovery.
+Reporting: Creating detailed incident and performance reports.
