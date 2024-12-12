@@ -1,1 +1,68 @@
 
+EDR typically stands for Endpoint Detection and Response, 
+a cybersecurity technology focused on detecting, investigating, 
+and responding to threats at endpoints 
+(like computers, laptops, and servers). 
+It involves monitoring endpoint activities, identifying potential threats, 
+and providing tools to respond to those threats quickly.
+
+=============================================================================
+Free Endpoint Detection and Response (EDR) tools are limited in comparison to paid solutions, but there are a few that provide basic functionality. Here are some notable free EDR or endpoint security tools:
+
+1. OSSEC
+--------------
+Description: Open-source host-based intrusion detection system (HIDS) with basic endpoint monitoring capabilities.
+Features:
+Log monitoring and analysis.
+File integrity monitoring.
+Rootkit detection.
+URL: ossec.net
+
+2. Wazuh
+-------------
+Description: Open-source security platform that evolved from OSSEC.
+Features:
+Threat detection.
+Configuration assessment.
+Real-time endpoint monitoring.
+Integration with SIEM tools like Elasticsearch and Kibana.
+URL: wazuh.com
+
+3. Microsoft Defender for Endpoint (Free Tier)
+-------------------------------------------------
+Description: Basic endpoint protection comes included with Windows systems.
+Features:
+Malware detection and removal.
+Basic threat protection.
+Limited EDR capabilities in free tier.
+URL: Microsoft Security
+
+4. Cynet 360 Free Tier
+-------------------------
+Description: Offers free EDR tools with limitations in scalability and premium features.
+Features:
+Endpoint protection.
+Automated threat response.
+Malware detection.
+URL: Cynet
+
+5. CrowdSec
+-------------
+Description: Community-driven, open-source threat intelligence platform.
+Features:
+Threat detection using behavior analysis.
+Crowd-sourced threat intelligence.
+URL: crowdsec.net
+
+6. ClamAV (With Scripts for EDR Use Cases)
+---------------------------------------------
+Description: Open-source antivirus engine that can be adapted for endpoint monitoring.
+Features:
+Malware scanning.
+Integration with automation scripts for EDR-like functionality.
+URL: clamav.net
+
+
+
+
+
