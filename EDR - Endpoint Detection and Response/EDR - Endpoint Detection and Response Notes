@@ -7,7 +7,9 @@ It involves monitoring endpoint activities, identifying potential threats,
 and providing tools to respond to those threats quickly.
 
 =============================================================================
-Free Endpoint Detection and Response (EDR) tools are limited in comparison to paid solutions, but there are a few that provide basic functionality. Here are some notable free EDR or endpoint security tools:
+Free Endpoint Detection and Response (EDR) tools are limited in comparison to paid solutions, 
+but there are a few that provide basic functionality. 
+Here are some notable free EDR or endpoint security tools:
 
 1. OSSEC
 --------------
