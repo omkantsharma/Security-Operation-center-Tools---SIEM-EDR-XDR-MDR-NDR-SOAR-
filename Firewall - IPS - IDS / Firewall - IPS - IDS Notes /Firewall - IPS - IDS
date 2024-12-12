@@ -1,1 +1,113 @@
+Firewalls, Intrusion Prevention Systems (IPS), and Intrusion Detection Systems (IDS), along with free and paid tools available for each category.
 
+1. Firewall
+A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+
+Types of Firewalls
+Packet-filtering Firewall: Analyzes packets and blocks or allows based on rules.
+Stateful Inspection Firewall: Tracks the state of active connections.
+Next-Generation Firewall (NGFW): Incorporates features like application awareness, deep packet inspection (DPI), and IPS/IDS.
+Free Firewall Tools
+pfSense
+
+Description: Open-source firewall/router software.
+Features: Packet filtering, VPN support, traffic shaping, and load balancing.
+URL: pfSense.org
+OPNsense
+
+Description: Open-source firewall and routing platform based on FreeBSD.
+Features: User-friendly interface, VPN support, reporting, and traffic shaping.
+URL: opnsense.org
+IPFire
+
+Description: Firewall and router solution with intrusion detection capabilities.
+Features: Stateful packet inspection, proxy, and content filtering.
+URL: ipfire.org
+Paid Firewall Tools
+Fortinet FortiGate
+
+Features: NGFW, threat intelligence, web filtering, and SSL inspection.
+Use Case: Enterprise-grade firewall with AI-driven threat detection.
+URL: fortinet.com
+Palo Alto Networks Firewall
+
+Features: NGFW with cloud-based threat intelligence and application-based traffic control.
+Use Case: Enterprise-grade firewall for hybrid cloud environments.
+URL: paloaltonetworks.com
+Cisco Firepower
+
+Features: Integrated NGFW with advanced threat defense and IPS.
+Use Case: Large-scale networks and enterprises.
+URL: cisco.com
+2. Intrusion Detection System (IDS)
+An IDS monitors network traffic for suspicious activities and alerts administrators. It does not actively block traffic.
+
+Types of IDS
+Network-based IDS (NIDS): Monitors network traffic.
+Host-based IDS (HIDS): Monitors activities on a specific host or device.
+Free IDS Tools
+Snort
+
+Description: Open-source NIDS with real-time traffic analysis and packet logging.
+Features: Rule-based detection and robust community support.
+URL: snort.org
+Suricata
+
+Description: Open-source IDS/IPS engine for NIDS.
+Features: High-speed traffic inspection, protocol detection, and file extraction.
+URL: suricata.io
+OSSEC
+
+Description: HIDS for monitoring file integrity, log analysis, and rootkit detection.
+URL: ossec.net
+Paid IDS Tools
+IBM QRadar
+
+Features: Integrated threat intelligence and anomaly detection.
+Use Case: Enterprise-grade IDS with SIEM integration.
+URL: ibm.com
+Splunk Enterprise Security
+
+Features: Advanced monitoring with rule-based and machine learning-based detection.
+Use Case: IDS for large-scale and hybrid networks.
+URL: splunk.com
+SolarWinds Security Event Manager
+
+Features: Log analysis and automated response for threats.
+URL: solarwinds.com
+3. Intrusion Prevention System (IPS)
+An IPS actively blocks malicious traffic after detecting it.
+
+Types of IPS
+Network-based IPS (NIPS): Monitors and protects network segments.
+Host-based IPS (HIPS): Protects individual hosts.
+Free IPS Tools
+Snort (With Inline Mode)
+
+Description: Can be configured as an IPS.
+Features: Rule-based detection and prevention of malicious traffic.
+URL: snort.org
+Suricata
+
+Description: Open-source tool that functions as both IDS and IPS.
+Features: Inline traffic analysis and prevention.
+URL: suricata.io
+Security Onion
+
+Description: Open-source Linux distro for IDS/IPS and threat hunting.
+Features: Combines Suricata, Snort, and other tools.
+URL: securityonion.net
+Paid IPS Tools
+Cisco Firepower
+
+Features: Integrated IPS with NGFW, advanced malware protection.
+URL: cisco.com
+Fortinet FortiGate
+
+Features: Advanced IPS with NGFW and integrated threat intelligence.
+URL: fortinet.com
+Trend Micro TippingPoint
+
+Features: Real-time traffic analysis and protection.
+Use Case: Enterprise IPS for data centers and critical infrastructures.
+URL: trendmicro.com
