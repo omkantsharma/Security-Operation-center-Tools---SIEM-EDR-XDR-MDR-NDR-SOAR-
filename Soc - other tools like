@@ -1,0 +1,63 @@
+1. DLP (Data Loss Prevention)
+Symantec DLP (now Broadcom)
+Forcepoint DLP
+McAfee Total Protection for DLP
+Digital Guardian DLP
+Microsoft Purview DLP
+
+2. Proxy
+Zscaler Internet Access
+Blue Coat ProxySG (now Broadcom)
+Forcepoint Web Security
+Squid Proxy
+F5 BIG-IP Secure Web Gateway
+
+3. EPP (Endpoint Protection Platform)
+Symantec Endpoint Protection
+CrowdStrike Falcon
+Microsoft Defender for Endpoint
+Sophos Intercept X
+Trend Micro Apex One
+
+4. EDR (Endpoint Detection and Response)
+CrowdStrike Falcon
+SentinelOne
+Carbon Black (VMware)
+Microsoft Defender for Endpoint
+Cybereason
+
+5. Threat Intel (Threat Intelligence)
+Recorded Future
+FireEye Threat Intelligence (now Trellix)
+IBM X-Force Exchange
+Anomali ThreatStream
+Mandiant Advantage Threat Intelligence
+
+6. ATP (Advanced Threat Protection)
+Microsoft Defender ATP
+Cisco Advanced Malware Protection (AMP)
+Symantec ATP
+Palo Alto Networks WildFire
+FireEye Advanced Threat Protection
+
+7. ATA (Advanced Threat Analytics)
+Microsoft Advanced Threat Analytics (discontinued, replaced by Azure Sentinel and Defender)
+IBM QRadar (used for threat analytics)
+Splunk Enterprise Security
+LogRhythm NextGen SIEM
+
+8. CASB (Cloud Access Security Broker)
+Netskope
+Microsoft Defender for Cloud Apps (formerly Microsoft Cloud App Security)
+McAfee MVISION Cloud
+Zscaler CASB
+Forcepoint CASB
+
+9. Qualys
+Qualys itself is a tool and platform, known for:
+
+Qualys Vulnerability Management
+Qualys Web Application Scanning
+Qualys Policy Compliance
+Qualys Container Security
+Qualys Cloud Security Assessment
