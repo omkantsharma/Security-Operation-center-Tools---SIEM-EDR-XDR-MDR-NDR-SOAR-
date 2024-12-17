@@ -1,0 +1,106 @@
+Threat Intelligence tools help organizations identify, analyze, and respond to cybersecurity threats effectively. 
+They collect and process data from multiple sources, providing insights into vulnerabilities, malicious activities,
+and emerging cyber threats. Below are some widely used tools and platforms in this domain:
+==========================================================================================
+Open-Source Threat Intelligence Tools-
+-------------------------------------
+Maltego
+Visual link analysis tool for threat mapping.
+Helps in analyzing relationships between domains, IPs, email addresses, and more.
+--------------------------------------------
+MISP (Malware Information Sharing Platform)
+Collaborative platform for sharing structured threat intelligence.
+Supports indicators of compromise (IOCs) and detailed attack patterns.
+----------------------------------------------------------------------
+TheHive
+Incident response platform integrated with threat intelligence.
+Enables collaboration on cases and IOC enrichment.
+--------------------------------------------------
+OpenCTI
+Knowledge management platform for CTI data.
+Supports STIX 2.0 and integrates with other CTI tools.
+------------------------------------------
+Yeti (Your Everyday Threat Intelligence)
+Designed for gathering, organizing, and sharing threat information.
+
+===============================================
+===============================================
+Focuses on indicators, TTPs, and threat actors.
+-----------------------------------------------
+Cuckoo Sandbox
+Open-source automated malware analysis.
+Identifies malicious behavior in files and URLs.
+Commercial Threat Intelligence Platforms
+------------------------------------------
+Recorded Future
+Provides real-time threat intelligence with advanced analytics.
+Covers dark web, vulnerabilities, and threat actor tracking.
+--------------------------------------------------------------
+ThreatConnect
+Combines threat intelligence with security operations.
+Provides playbooks, integrations, and collaborative intelligence sharing.
+---------------------------------------------------------------------
+CrowdStrike Falcon X
+Integrates threat intelligence with endpoint protection.
+Offers insights into adversary tactics and threat actor tracking.
+------------------------------------------------------------------
+Anomali ThreatStream
+Aggregates and enriches threat intelligence feeds.
+Provides integration with SIEMs and SOAR platforms.
+-----------------------------------------------------
+FireEye Threat Intelligence
+Delivers advanced threat intelligence based on threat actor research.
+Provides actionable insights for strategic, operational, and tactical decision-making.
+---------------------------------------------------------------------------------------
+IBM X-Force Exchange
+Cloud-based threat intelligence sharing platform.
+Offers global threat activity monitoring and research insights.
+
+===============================================================
+===============================================================
+===============================================================
+Threat Intelligence Feed Providers
+
+VirusTotal
+Online platform for analyzing files, URLs, and domains for malicious activity.
+Provides insights into malware behavior.
+-----------------------------------------
+AlienVault OTX (Open Threat Exchange)
+Free platform for sharing and collaborating on threat intelligence.
+Integrates with USM Anywhere and other tools.
+---------------------------------------------
+Spamhaus
+Tracks spam and related cyber threats, such as botnets and malware.
+Provides blocklists for network protection.
+-------------------------------------------
+AbuseIPDB
+Crowdsourced platform for reporting and checking malicious IPs.
+Useful for identifying botnet or attack-related IPs.
+----------------------------------------------------
+Cisco Talos
+Offers threat intelligence from Cisco’s global network.
+Provides reports, tools, and analysis of cyber threats.
+--------------------------------------------------------
+========================================================
+========================================================
+SIEM Integration
+Threat intelligence tools often integrate with Security Information and Event Management (SIEM) platforms like:
+Splunk
+QRadar
+Elastic SIEM
+LogRhythm
+================================================
+------------------------------------------------
+================================================
+Key Functionalities of Threat Intelligence Tools
+Indicator of Compromise (IOC) Management
+Collection, storage, and analysis of IPs, URLs, hashes, etc.
+------------------------------------------------------------
+Threat Actor Tracking
+Monitoring groups, campaigns, and TTPs (Tactics, Techniques, Procedures).
+--------------------------------------------------------------------------
+Automated Enrichment
+Enhancing raw data with context and actionable intelligence.
+------------------------------------------------------------
+Integration with Security Tools
+Compatibility with firewalls, SOAR, EDR, and SIEM systems.
