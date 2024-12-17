@@ -55,25 +55,40 @@ XDR Use Cases
 
 Advanced Threat Detection
 Detects and correlates multi-vector attacks (e.g., phishing email leads to endpoint compromise and lateral movement).
+or 
+Identifies multi-vector attacks like ransomware and advanced persistent threats (APTs) that target multiple systems.
 
 
-Ransomware Response
+Ransomware Response or Ransomware Mitigation
 Automatically isolates infected endpoints and blocks malicious traffic while providing detailed insights into the attack chain.
+or
+Detects lateral movement and isolates affected systems to prevent widespread infection.
 
 
 Insider Threat Monitoring
 Identifies unusual user behaviors (e.g., excessive data downloads, anomalous login attempts) by analyzing patterns across endpoints and networks.
+or 
+Detects unusual user behavior indicative of malicious activity or account compromise.
 
 
 Cloud Security
 Monitors and protects cloud environments from threats such as misconfigurations, unauthorized access, and malware.
+or
+Monitors and protects workloads in hybrid and multi-cloud environments.
 
 
 Incident Investigation
 Provides detailed attack narratives, including timelines, affected systems, and suggested remediation steps.
 
+
+IoT and OT Security
+Provides visibility and protection for IoT devices and operational technology.
+
+
+
 ===================
 Benefits of XDR
+
 Improved Threat Detection
 -Correlates data across multiple domains to uncover hidden threats.
 
@@ -123,6 +138,9 @@ SentinelOne Singularity XDR
 
 Sophos XDR
 -Offers an intuitive interface and integrates well with Sophos’ suite of tools.
+
+Fortinet FortiXDR
+-Part of the Fortinet Security Fabric, integrating well with other Fortinet solutions.
 
 ========================================
 =============-==========================
