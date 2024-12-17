@@ -172,12 +172,17 @@ Playbook and workflow creation can be time-intensive.
 -----------------------------------------------------
 Data Overload
 Poorly configured systems can lead to excessive noise.
+------------------------------------------------------
 Team Training
 Teams must be trained to use and manage SOAR effectively.
+---------------------------------------------------------
 Cost
 Commercial SOAR solutions can be expensive for smaller organizations.
-Best Practices for Implementing SOAR
-Define Clear Objectives
+----------------------------------------------------------------------
+=======================================================================
+Best Practices for Implementing SOAR --
+------------------------------------
+Define Clear Objectives -----------
 Understand what processes you want to automate and how SOAR will improve them.
 Start Small
 Begin with automating simple, repetitive tasks before moving to complex workflows.
