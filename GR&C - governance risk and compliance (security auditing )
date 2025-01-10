@@ -1,0 +1,17 @@
+GR&C - governance risk and compliance (security auditing )
+1. policy - made policy on the bases on iso - incident management  policy includes  security control 
+like - means - incident handling and security monitoring (mandatory )- standard set policy , 
+comes credibility,  company  e.g. password - complex and change in 30 days
+2. process - policy implementation comes in process
+NIST took as a reference in iso,  sans also , so build up process  e.g.. set encryption for password. - 
+3. sop - step of procedure - document for recreation. mention step of implementation like my GitHub doc 
+------------------------------------------------------------------------------------------------------------------
+technical keywords - finetune - took reach why false positive generate,  
+triage - l1 work does it. incident true positive, false positive , define by l1 
+polo arto, cisco, 
+wazuh - open soure - SIEM
+------------------------------------------------------------------------------------------------------------------
+
+
+reference -
+https://youtu.be/0POWOu4iUrg?si=6yJdGF6ynd1uUf7r
