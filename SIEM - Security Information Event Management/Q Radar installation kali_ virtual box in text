@@ -1,0 +1,209 @@
+
+https://www.ibm.com/community/qradar/ce/
+- Google qradarhttps://www.ibm.com/community/qradar/ce/
+-
+- Fill up given detail then Download
+QRadarCE733GA_v1_0.OVA – open virtual box - file – import
+appliance –in file add QRadarCE733GA_v1_0.OVA – next -
+give qradar name &10 gb ram –finish
+-
+- Select qradr- settings – check-in network–bridge adaptor-ok
+-
+- Start qradar- in local host login: root- set new password-
+-
+- root@localhost~1#
+-
+- win cmd – ipconfigdefaltgatwayip note down
+-
+- went to qradarvm root@localhost~1#
+-
+- Edit a connection- enter
+alhost~1#-
+- wireless LAN adapter wi fi – ip addr,
+defaltgatwayip note down
+went to qradarvm root@localhost~1#- nmtui
+enter
+ip addr,
+-
+Network manager TUI
+- Wired connection 1
+- Edit Profile name –
+- Ipv configuration –
+- Address – write win pv4
+- gateway – write here gateway IP
+- DNS server- 8.8.8.8
+- ip v6 configuration
+- go back to c - set system hostname
+qualified Doman name)
+- network manager tui
+deactivate – activate
+Network manager TUI
+Wired connection 1- edit
+–enp0s17-
+manual- showwrite win pv4- host octet will change
+write here gateway ip- same
+8.8.8.8 - this is googleip/dns server
+ip v6 configuration – ignore - ok
+set system hostname- qradar.tabby.com(fully
+qualified Doman name)-ok-ok
+network manager tui –activate connection- enp0s17
+activate -deactivate– back- quit
+e–
+/dns server
+qradar.tabby.com(fully
+enp0s17-
+- clear- root@localhost~1# ipaddr | less – output-q
+Restart qradar
+- root@localhost~1# ping 8.8.8.8 – output- ctrl Z
+- root@localhost~1# ls – setup-
+- root@localhost~1#- ./setup
+- continue quite-enter
+- space batten—again….
+- (end) –press q – enter
+- Continue y / n- y – enter- it will take time
+- Installation started – take time-
+- Installation completed successfully
+- Enter new admin password.
+- Password (to access qradar interface )
+- Confirm password
+-
+- root@localhost~1# systemctl status tomcat
+- root@localhost~1# ipadd
+- root@localhost~1# ping with win ipv4 add
+- open kali/ubuntu
+- went to win browser
+proceed to 192.168.100.200 (unsafe)
+and proceed
+-
+- qradar interface appears
+- accept license
+Confirm password- admin password changeroot@localhost~1# systemctl status tomcat- enter
+root@localhost~1# ipaddr | less –output given
+root@localhost~1# ping with win ipv4 add
+open kali / ubuntu
+browser- https//192.168.100.200-
+proceed to 192.168.100.200 (unsafe)-accept security risk
+qradar interface appear- username- password
+enter- running
+output given ip in nmtui -q
+- advanceaccept security risk
+- all empty need system configuration
+-
+https://www.ibm.com/community/qradar/ce/
+- Admin- data source –
+- Win search – winscp (use copy file win to linuxqradar)-
+install winscp if not in win – host name – insert qradar,s
+enp0s17 ip – user name root- password root pwd–login –
+yes
+ --- Search – win collect agent -QRadar® 7.3 RPMs contained in the WinCollect SFS installer
+-
+------------------------------------------------
+------------------------------------------------
+- (Part-2)
+- After installing the Qradar community edition, there is an issue with events not showing in the log activity tab. In
+this video, explained how you can resolve this issue. https://youtu.be/tPCdBwoNgcM (Qrdrar CE installation ||
+VMware Workstation || VirtualBox || Getting started with Qradar (Part 1)) https://putty.org/ (Download putty)
+https://www.ibm.com/community/qradar/ce/ Or use the link to access the document
+https://www.ibm.com/support/pages/nod...
+This is in window
+-open browser- putty.org – download putty-
+- https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+- setup download then install-
+- goqradar- type cmd- if config| (pai) less
+- ip address note down of enp0s17 -
+- open putty configuration -
+- insert ip in [host name for ipaddr]
+- port 22 – connection type SSH – OPEN
+- in root @qradar - login: root, ippossword:
+- right click on min.max.close bar- change setting-apprence-
+- 16-color- foregroung- red.0-green.255-blue.0
+- Search in browser- ibmqradar community edition-re page
+- click on red notice appear on screen –
+- scroll down – procedure –
+qradar console
+(the all server command allow console appliance to
+update)[https://www.ibm.com/community/qradar/ce/ ] -
+[https://www.ibm.com/support/pages/node/6395080 ] –
+1. [
+2.
+1. if [ -f /opt/qradar/ecs/license.txt ] ; thenecho -n "QRadar:Q1 Labs
+Inc.:0007634bda1e2:WnT9X7BDFOgB1WaXwokODc:12/31/20"> /opt/qradar/ecs/license.txt ;fi ;
+if [ -f /opt/ibm/si/services/ecs-ec-ingress/current/eventgnosis/license.txt ] ; thenecho
+-n "QRadar:Q1 Labs Inc.:0007634bda1e2:WnT9X7BDFOgB1WaXwokODc:12/31/20">
+/opt/ibm/si/services/ecs-ec-ingress/current/eventgnosis/license.txt ;fi ; if [ -f
+/opt/ibm/si/services/ecs-ep/current/eventgnosis/license.txt ] ; thenecho -n "QRadar:Q1
+Labs Inc.:0007634bda1e2:WnT9X7BDFOgB1WaXwokODc:12/31/20"> /opt/ibm/si/services/ecsep/current/eventgnosis/license.txt ;fi ; if [ -f /opt/ibm/si/services/ecsec/current/eventgnosis/license.txt ] ; thenecho -n "QRadar:Q1 Labs
+Inc.:0007634bda1e2:WnT9X7BDFOgB1WaXwokODc:12/31/20"> /opt/ibm/si/services/ecsec/current/eventgnosis/license.txt ;fi ; if [ -f /usr/eventgnosis/ecs/license.txt ] ;
+thenecho -n "QRadar:Q1 Labs Inc.:0007634bda1e2:WnT9X7BDFOgB1WaXwokODc:12/31/20">
+/usr/eventgnosis/ecs/license.txt ;fi ; if [ -f
+/opt/qradar/conf/templates/ecs_license.txt ] ; thenecho -n "QRadar:Q1 Labs
+Inc.:0007634bda1e2:WnT9X7BDFOgB1WaXwokODc:12/31/20">
+/opt/qradar/conf/templates/ecs_license.txt ; fi
+ ]
+- for QRadar community edition:- copy that- paste in putty
+right mouse click hold shift + insert key or (category –
+selection - in auto copy - ctrl+shift+c.v. - select clipboard)-
+ctrl+shift+c.v -putty qradar console- enter –
+(than It will appear)
+-
+This is in Linux
+- install putty (SSH and telnet client) in
+ubuntu Linux
+- open terminal
+– sudo apt-get install putty
+- pwd- y/n-y-enter-dash
+-
+------------------------------------------------
+------------------------------------------------
+https://www.youtube.com/watch?v=mP6hX9gKvyY
+- (Part-3)
+get install putty
+dash home-search putty-
+------------------------------------------------
+------------------------------------------------
+https://www.youtube.com/watch?v=mP6hX9gKvyY
+- Linux terminal- ipaddr
+- Qradar - ping linuxip –
+Root@kali- systemctl statusrsy
+-systemctl statusrsyslog.service
+-sudonano /etc/rsyslog.conf - enter – afterthis line-
+$includingconfig /etc/ryslog.d/*.conf
+- ‘.’ (send all log to) @(udp)if one more(tcp) qradarip (send
+to qradar) :514(port) – ctrl o - enter
+- ‘.’@ qradar ip:514
+- systemctl restartrsyslog.service- pswd
+-qradae console on browser – log activities
+- click on add filter
+- in parameter – source ip [indexed]
+- operator – equals
+- in value – ip of linux machine- add filter
+- select an option - real time streaming
+- Lets try to create log on linux machine
+- Sudoadduserqradar
+- Cat /etc/passwd | grepqradar
+Qradar❌1025:::/home/qradar:/bin/sh
+Qradar(this is user)❌1025:::/home/qradar(these are the
+dir):/bin/sh(this is the shell)
+- Lets look those events – qradar console –
+- And click on first event – see info–( parsing data from
+payload ) – payload ( here eevent without parsing) – then
+check first event-sec – so on.. – provide you all detail -
+-
+----------------------------------------------------------------------------------------
+geeksforgeeks.org/getting-started-with-rsyslog-in-linux/
+-link
+----------------------------------------------------------------------------------------
+-vi /etc/rsyslog.conf
+----------------------------------------------------------------------------------------
+Second methods - start after local host logit:root-new
+password-retype new password
+-
+- root@localhost~1# cat /etc/redhat-release
+- root@localhost~1# du -h
+- root@localhost~1# df –h (minimum installation is done)
+- root@localhost~1# ls
+- root@localhost~1# ./setup
+- accept term – enter
+- press space …….
+- End – q-enter
+- Continue y/n – y
