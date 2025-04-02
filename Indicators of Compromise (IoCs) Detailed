@@ -1,0 +1,65 @@
+Indicators of Compromise (IoCs) are signs of a security breach, and 
+examples include ---
+- malicious malware hashes like SHA256:  1234567890abcdef, 
+- a suspicious IP address 192.168.1.100, 
+- a phishing URL malicious.site.com, 
+- a malicious file name evil.exe, 
+- a registry key modification HKLM\Software\Malware, 
+- unusual network traffic patterns, and 
+- behavioral indicators like a sudden spike in outbound traffic. 
+
+-------------------------------------------------------------------------------------------------
+Here's a breakdown of each IoC type:
+
+1. Malware Hashes:
+What it is: A unique fingerprint (hash) of a file, used to identify malware. 
+Example: SHA256: 1234567890abcdef 
+Why it's important: Security tools can compare hashes of files against 
+known malware databases to detect malicious activity. 
+
+2. IP Addresses:
+What it is: A numerical address assigned to devices on a network, 
+potentially used for command-and-control (C2) communication
+ by attackers.
+Example: 192.168.1.100
+Why it's important: Monitoring IP addresses for suspicious 
+activity can help detect and block malicious communications. 
+
+3. URLs:
+What it is: The address of a website or web resource, 
+often used in phishing attacks or to host malicious content.
+Example: malicious.site.com
+Why it's important: Identifying and blocking malicious 
+URLs can prevent users from accessing dangerous sites. 
+
+4. File Names:
+What it is: The name of a file, which can be used to identify 
+malicious software or documents.
+Example: evil.exe
+Why it's important: Monitoring file names can help detect 
+the presence of malicious files on a system. 
+
+5. Registry Keys:
+What it is: A location in the Windows registry where software 
+settings are stored, which can be modified by malware to persist on a system.
+Example: HKLM\Software\Malware
+Why it's important: Monitoring registry key modifications 
+can help detect malware installation or persistence. 
+
+6. Network Traffic:
+What it is: Data transmitted across a network, which can 
+be analyzed for suspicious patterns.
+Example: A sudden spike in outbound traffic to a known 
+malicious IP address.
+Why it's important: Analyzing network traffic can help detect 
+command-and-control (C2) communication, data exfiltration, 
+or other malicious activities. 
+
+7. Behavioral Indicators:
+What it is: Unusual activity on a system or network, such as
+ failed login attempts, unexpected process creation, or changes 
+in system behavior.
+Example: A large number of failed login attempts from a single IP address.
+Why it's important: Identifying and investigating behavioral 
+indicators can help detect and respond to security incidents. 
+--------------------------------------------------------------------------------------------------------------------
