@@ -1,7 +1,18 @@
+==================================================================================
+In cybersecurity, 
+IOA (Indicators of Attack) are signs of a potential attack in progress,
+while IOC (Indicators of Compromise) are evidence that a system has been compromised.
+-------
+IOAs are proactive, helping to detect and prevent attacks before they cause harm,
+while IOCs are reactive, used for post-breach investigation and remediation. 
+==================================================================================
+
+
 In cybersecurity, an Indicator of Attack (IoA) is a proactive approach to 
 threat detection, focusing on identifying unusual or suspicious behaviors 
 and activities that indicate a potential attack is underway, 
 rather than relying solely on known signatures or indicators of compromise (IOCs). 
+
 ---------------------
 An Indicator of Attack (IOA) is related to an IOC in that it is a digital artifact.  
 However, unlike IOCs, IOAs are active in nature and focus on identifying a 
