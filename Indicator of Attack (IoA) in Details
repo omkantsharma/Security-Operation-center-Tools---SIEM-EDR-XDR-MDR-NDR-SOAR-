@@ -1,0 +1,57 @@
+In cybersecurity, an Indicator of Attack (IoA) is a proactive approach to 
+threat detection, focusing on identifying unusual or suspicious behaviors 
+and activities that indicate a potential attack is underway, 
+rather than relying solely on known signatures or indicators of compromise (IOCs). 
+---------------------
+An Indicator of Attack (IOA) is related to an IOC in that it is a digital artifact.  
+However, unlike IOCs, IOAs are active in nature and focus on identifying a 
+cyberattack that is in process.
+--------------------
+In cybersecurity, IOA (Indicators of Attack) are signs of a potential attack in progress,
+ while IOC (Indicators of Compromise) are evidence that a system has been compromised.
+ IOAs are proactive, helping to detect and prevent attacks before they cause harm, 
+while IOCs are reactive, used for post-breach investigation and remediation. 
+--------------------
+Here's a more detailed explanation:
+
+What IoAs are:
+IoAs are evidence-based patterns or anomalies in a system that suggest 
+a cyberattack or malicious activity is in progress. 
+
+How they differ from IOCs:
+While IOCs focus on specific malicious artifacts or signatures (like malware 
+or IP addresses), IoAs focus on the intent and tactics, techniques, and 
+procedures (TTPs) used by attackers to achieve their objectives. 
+
+Why they are important:
+IoAs help security teams identify potential threats or attacks based on 
+known attack patterns and techniques, allowing for proactive 
+detection and prevention of data breaches. 
+
+Examples of IoAs:
+Unusual file activities (e.g., accessing, downloading, or deleting 
+sensitive files unexpectedly) 
+
+Network anomalies (e.g., connecting to networks outside usual 
+patterns or using unsecured networks) 
+
+Access patterns (e.g., abnormal modifications to user permissions or login activities) 
+
+Suspicious network activity 
+
+Unusual (privileged) account behavior 
+
+Conspicuous access attempts 
+
+The appearance of strange files on systems 
+-----------------------------------------------------------------------
+IOA vs IOC
+IOA focuses on detecting the intent of what an attacker is trying to accomplish, 
+regardless of the malware or exploit used in an attack. 
+
+IOCs focus on specific malicious artifacts or signatures (like malware or IP addresses). 
+-----------------------------------------------------------------------
+Benefits of using IoAs:
+Proactive threat detection: IoAs help security teams identify potential threats early in the attack lifecycle. 
+Reduced false positives: By focusing on behavioral patterns, IoAs can reduce the number of false positives compared to IOCs. 
+Improved threat hunting: IoAs can help security teams identify and investigate potential threats more effectively. 
