@@ -1,4 +1,4 @@
-In cybersecurity, an Indicator of Compromise (IOC) is a piece of evidence, 
+In cybersecurity, an Indicator of Compromise (IOC) is a piece of evidence, {focus on specific malicious artifacts or signatures}
 like a suspicious IP address or a malicious file hash, that suggests 
 a system or network has been breached or attacked. 
 Here's a more detailed explanation: 
@@ -37,7 +37,7 @@ security incidents and determine the scope and impact of a breach.
 
 
 ===================================================================================
-Indicators of Compromise (IoCs) are signs of a security breach, and 
+Indicators of Compromise (IoCs) are signs of a security breach, and {focus on specific malicious artifacts or signatures}
 examples include ---
 - malicious malware hashes like SHA256:  1234567890abcdef, 
 - a suspicious IP address 192.168.1.100, 
