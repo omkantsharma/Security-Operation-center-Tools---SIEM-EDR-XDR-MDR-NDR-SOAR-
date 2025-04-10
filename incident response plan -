@@ -1,0 +1,62 @@
+incident response plan -
+
+------------------------------
+=======================================================
+preparation
+- check monitoring , log management, case management, endpoint security, email security, threat intel, sandbox 
+=======================================================
+------------------------------
+detection -  -SIEM tool correlate logs with rules configured and generate like  - alert,
+-
+severity -e.g..- alert generated of SQL compromise CIA - Critical , high, low. 
+priority -- - P1, P2, P3, P4   (P=Priority)
+--
+SIEM  (log management and , monitoring like - collect all logs in bucket )
+- log source -  (log source integrated with the SIEM - e.g. - {network }  ->router_(imps link) puf load >   IPS/IDS -> firewall - WAF -. Load balance  LB ->  proxy,  IPS/IDS, Switch , dos solution, ), 
+NAT - public ip addr, ip class, private ip addr )
+
+Endpoint ()-  Antivirus, epp - edr - xdr -  mdr
+- edr for only endpoint
+- xdr it cover endpoint, network and cloud
+- mdr - hunting true positive by backend team . 
+---------------
+application - mobile or websites 
+
+----------------
+EDR
+UEVA
+SOAR
+
+------
+
+------------------------------
+================================================
+analysis -- 
+alert title, description, time stamp, rule (- condition met than alert trigger )
+level - assign to post 
+Hostname- device name
+Destination IP address (host IP and victim IP)
+Source IP (attack IP, )
+HTTP request method - means  web application log - mobile or desktop
+Requested URL - These are after IP  DIRECTORY
+User agent - means browser, 
+alert Trigger Reason - 
+---
+Device Action - device (like IPS/IDS, -  ) or user action
+------
+---------------------------------------------------------------------------------
+If we can not contain the victim then action should taken -
+- block source IP in- firewall and signature block in  ips/ids 
+- if hash value - block on endpoint in all
+- URL block on proxy, 
+- 
+- 
+================================================
+
+containment
+
+eradication
+
+recovery
+
+lesson learned or post incident activity or documentation 
