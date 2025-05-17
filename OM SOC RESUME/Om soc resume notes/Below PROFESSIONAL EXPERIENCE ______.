@@ -1,0 +1,229 @@
+PROFESSIONAL EXPERIENCE ______.  
+
+
+🔐 1. JIRA (Security Integration Tool)
+One-liner: Used to track security incidents, vulnerabilities, and compliance tasks via tickets.
+Example: A vulnerability scan from Tenable finds a critical flaw — JIRA auto-creates a ticket and assigns it to the security engineer.
+
+📊 2. ELK Stack (Elasticsearch, Logstash, Kibana)
+One-liner: Collects, stores, and visualizes logs for threat detection and analysis.
+Example: A brute-force login attempt generates logs that ELK displays in Kibana, triggering a JIRA alert for investigation.
+
+🛡️ 3. Wazuh
+One-liner: An open-source SIEM that detects threats through log analysis and system monitoring.
+Example: Wazuh detects unauthorized file changes on a server and sends an alert to JIRA via API.
+
+🌐 4. Zscaler
+One-liner: Cloud-based security that provides safe internet access and enforces zero-trust policies.
+Example: A remote employee connects to the internet — Zscaler inspects traffic, blocks malware, and logs the event for audit.
+
+🔁 5. Proxy
+One-liner: Acts as a gateway between users and the internet to filter content and protect identities.
+Example: A company proxy blocks access to malicious websites and logs user activity for review.
+
+🤖 6. SOAR (Security Orchestration, Automation, and Response)
+One-liner: Automates security workflows and integrates tools for faster incident response.
+Example: When a phishing email is reported, SOAR auto-checks reputation, isolates the endpoint, and opens a JIRA ticket — all without human action.
+
+🌐 7. XDR (Extended Detection and Response)
+One-liner: A unified platform that detects and responds to threats across endpoints, networks, and cloud.
+Example: XDR identifies a suspicious file download on an endpoint, correlates it with lateral movement, and blocks the attack across systems.
+
+Vectra L uses AI-driven network detection and response (NDR) to identify hidden threats and attacker behaviors in real time.
+Example: Vectra detects lateral movement in your internal network by spotting unusual account activity and sends an alert for SOC review.
+
+Let me know if you want a comparison with tools like Darktrace or Microsoft Defender XDR.
+
+🕵️‍♂️ Stealthbits
+One-liner: Stealthbits helps secure sensitive data and manage user access by detecting insider threats, auditing file activity, and protecting Active Directory.
+Example: If a user suddenly accesses hundreds of confidential files, Stealthbits logs the behavior, alerts the security team, and can trigger a JIRA ticket via integration.
+
+🌐 Cisco (Cybersecurity)
+One-liner: Cisco provides comprehensive network security solutions including firewalls, intrusion prevention, secure access, and threat intelligence to protect enterprise networks.
+Example: Cisco Firepower detects and blocks a malware attack at the network perimeter while logging the event for incident response teams.
+
+☂️ Cisco Umbrella
+One-liner: Cisco Umbrella is a cloud-delivered security platform that provides DNS-layer protection to block malicious domains and prevent phishing and malware infections before they reach your network.
+Example: When a user tries to visit a known phishing site, Umbrella blocks the DNS request and prevents the connection, keeping the network safe.
+
+One-liner: DNS translates human-readable domain names (like example.com) into IP addresses, and in cybersecurity, DNS filtering blocks access to malicious sites by preventing harmful DNS queries.
+Example: A DNS firewall blocks a request to a command-and-control server domain, stopping malware from communicating with attackers.
+
+🌐 DNS Server
+One-liner: A DNS server resolves domain names into IP addresses, and secure DNS servers help prevent attacks by filtering malicious domains and ensuring reliable, trusted name resolution.
+Example: A corporate DNS server blocks access to phishing domains by refusing to resolve their names, protecting users from harmful websites.
+
+1. Endpoint (Client Device in India)
+Your computer/mobile (endpoint) initiates a request by typing a URL (e.g., www.example.com).
+
+The device’s TCP/IP stack prepares a packet with the destination IP (once resolved).
+
+2. DNS Resolution (Domain Name to IP Address)
+The endpoint sends a DNS query (UDP packet) to a configured DNS server (often ISP’s recursive DNS).
+
+The DNS server either resolves the IP from its cache or queries root, TLD, and authoritative DNS servers to get the website’s IP.
+
+The resolved IP is sent back to the endpoint.
+
+3. Local Network (Switch and Router)
+The endpoint forwards the HTTP request to its default gateway — typically a local router (home/office router).
+
+Before reaching the router, packets traverse the local Ethernet/Wi-Fi switch that directs traffic within the LAN.
+
+The router performs NAT (Network Address Translation) and forwards the packet out to the ISP.
+
+4. ISP Network and Multiple Routers (Hops)
+The packet travels through multiple ISP routers — each router is a network hop forwarding packets based on IP routing tables.
+
+Each hop performs routing decisions, TTL decrement, and forwards the packet closer to the destination.
+
+5. International Backbone (Undersea Cables and Transit Providers)
+From India, the packet traverses undersea fiber optic cables to reach the USA — crossing multiple Autonomous Systems (AS).
+
+Each AS’s border routers handle packet forwarding between networks.
+
+6. Destination ISP and Local Network in USA
+The packet reaches the destination ISP’s network in America.
+
+It travels through regional routers and switches inside the data center network.
+
+7. Final Server (Web Server in America)
+The packet arrives at the web server’s network interface.
+
+The server responds with the requested content, sending packets back via the reverse path.
+
+Technical Flow Summary:
+Step	Component	Function/Role
+1	Endpoint	Sends DNS query & HTTP request
+2	DNS Server	Resolves domain to IP address
+3	Switch (Local LAN)	Forwards frames within local network
+4	Router (Gateway)	Routes packets outside local network (NAT applied)
+5	ISP Routers (Hops)	Forward packet via multiple hops across networks
+6	Undersea Cables	Physical link connecting continents
+7	Destination ISP	Routes packet towards data center
+8	Data Center Switch	Forwards packet inside data center
+9	Server	Processes request and sends response
+
+
+Cisco Umbrella is a cloud-based DNS security service that blocks users from accessing malicious websites by filtering DNS requests before a connection is made.
+Example: When an employee tries to visit a phishing site, Umbrella blocks the DNS request, preventing access and protecting the network.
+
+Cortex XDR is an extended detection and response platform by Palo Alto Networks that integrates endpoint, network, and cloud data to detect, investigate, and respond to advanced cyber threats.
+Example: Cortex XDR detects unusual endpoint behavior indicating a ransomware attack, automatically isolates the device, and alerts the security team for rapid response.
+
+WildFire is Palo Alto Networks’ cloud-based threat analysis service that detects and blocks unknown malware by running suspicious files in a sandbox environment.
+Example: When a user downloads a suspicious email attachment, WildFire analyzes it in the cloud and blocks it if found malicious, preventing infection.
+
+
+Microsoft ATP (Advanced Threat Protection) is a security platform that helps detect, investigate, and respond to advanced cyber threats across endpoints, emails, and identities.
+Example: MS ATP identifies a phishing email with a malicious link, quarantines it, and alerts the security team to prevent compromise.
+
+MITRE ATT&CK lists adversary tactics like Initial Access, Execution, Persistence, Privilege Escalation, Defense Evasion, Credential Access, Discovery, Lateral Movement, Collection, Exfiltration, and Impact.
+Example: An attack using PowerShell for remote execution maps to the "Execution" tactic in the MITRE ATT&CK framework.
+
+The Cyber Kill Chain is a security model developed by Lockheed Martin that outlines the stages of a cyberattack, from reconnaissance to data exfiltration and impact.
+Example: A phishing email with a malicious link represents the "Delivery" stage in the Cyber Kill Chain.
+----------------------------------
+🔐 Kill Chain Stages (in one line each):
+Reconnaissance – Attacker gathers information about the target.
+
+Weaponization – Creates malware or payloads based on the collected data.
+
+Delivery – Sends the payload via email, web, or USB.
+
+Exploitation – Executes the malware on the victim's system.
+
+Installation – Installs a backdoor or remote access tool (RAT).
+
+Command and Control (C2) – Establishes communication with attacker’s server.
+
+Actions on Objectives – Performs the intended goal: stealing data, disrupting systems, etc.
+
+--------------------------------
+🔹 1. Preparation
+Goal: Build readiness before an incident occurs.
+Tools:
+
+SIEM: Splunk, IBM QRadar
+
+EDR: CrowdStrike Falcon, Microsoft Defender for Endpoint
+
+Playbooks: SOAR platforms (e.g., Cortex XSOAR, Splunk SOAR)
+Example: Configure Splunk to monitor critical assets and send alerts to the SOC.
+
+🔹 2. Identification
+Goal: Detect and confirm the incident.
+Tools:
+
+SIEM: LogRhythm, Sentinel
+
+NDR: Vectra AI
+
+Threat Intel: VirusTotal, Talos, Recorded Future
+Example: QRadar detects unusual login patterns — possible brute-force attack.
+
+🔹 3. Containment
+Goal: Limit the scope and impact of the attack.
+Tools:
+
+EDR/XDR: CrowdStrike, Cortex XDR
+
+Firewall: Palo Alto, Fortinet
+
+SOAR: Cortex XSOAR
+Example: Cortex XDR isolates the infected endpoint from the network.
+
+🔹 4. Eradication
+Goal: Remove the root cause of the incident.
+Tools:
+
+Antivirus/Malware Removal: Malwarebytes, Windows Defender
+
+Forensics Tools: FTK, Autopsy
+
+Patch Management: ManageEngine, WSUS
+Example: Malwarebytes removes trojans; patches are applied to the vulnerable app.
+
+🔹 5. Recovery
+Goal: Restore systems and ensure they’re safe to use.
+Tools:
+
+Backup & Restore: Veeam, Acronis
+
+Vulnerability Scanners: Tenable, Qualys
+Example: Restore clean backups from Veeam; validate using Nessus scans.
+
+🔹 6. Lessons Learned
+Goal: Review incident response and improve.
+Tools:
+
+Reporting Tools: JIRA, Confluence, ServiceNow
+
+MITRE ATT&CK Mapping: RedCanary, MITRE Navigator
+Example: Post-incident review in Confluence shows need for better email filtering.
+
+-----------------------------
+
+🔹 1. Preparation
+Establish incident response policies, tools, roles, and training.
+
+🔹 2. Identification
+Detect and confirm the incident using logs, alerts, or monitoring tools.
+
+🔹 3. Containment
+Limit the spread of the attack (short-term and long-term containment).
+
+🔹 4. Eradication
+Remove the root cause (malware, attacker access, vulnerabilities).
+
+🔹 5. Recovery
+Restore and validate systems to return to normal operation.
+
+🔹 6. Lessons Learned
+Analyze what happened, what worked, what failed, and update policies.
+
+📌 This cycle improves the organization’s ability to respond faster and more effectively to future incidents.
+
+-----------------------------------------
+
+
