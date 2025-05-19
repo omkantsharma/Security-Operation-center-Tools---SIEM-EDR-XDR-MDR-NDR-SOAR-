@@ -1,0 +1,106 @@
+🧱 QRadar Architecture Overview
+1. All-in-One Deployment
+Small setups
+
+All components (Console, Event/Flow Collector, Processor) on a single appliance.
+
+2. Distributed Deployment (for scalability)
+Divided into specialized roles:
+
+Console
+
+Central UI and management
+
+Correlation, offenses, dashboards
+
+Event Collector
+
+Gathers and normalizes logs
+
+Compresses and forwards to Event Processor
+
+Flow Collector
+
+Collects NetFlow, sFlow, etc.
+
+Normalizes and sends to Flow Processor
+
+Event Processor
+
+Parses, stores, and correlates events
+
+Triggers rules and generates offenses
+
+Flow Processor
+
+Analyzes, correlates, and stores flow data
+
+Data Node (optional)
+
+Expands storage for long-term log/flow retention
+
+App Host (optional)
+
+Runs QRadar extensions (apps, AI, threat intel)
+
+🔗 Communication
+Internal components communicate over secure channels (e.g., SSH, TLS).
+
+Uses PostgreSQL, Ariel DB, and Elasticsearch (for apps) internally. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Or
+
+
+
+
+
+
+
+🧱 QRadar Architecture Overview
+1. Data Collection Layer
+Event Collectors: Gather log data from various sources such as firewalls, servers, and applications. They normalize and forward this data to Event Processors.
+
+Flow Collectors: Capture network flow data (e.g., NetFlow, sFlow) and send it to Flow Processors.
+
+2. Data Processing Layer
+Event Processors: Process and store event data, apply correlation rules, and generate offenses. They also stream live data to the console for real-time analysis.
+
+Flow Processors: Analyze and store flow data, applying correlation rules to detect network anomalies.
+
+3. Data Storage Layer
+Data Nodes: Provide scalable storage for normalized and indexed event and flow data, supporting long-term retention and historical analysis.
+DevOps School
+
+4. Application Layer
+App Hosts: Run QRadar applications (apps) that extend functionality, such as threat intelligence integration and advanced analytics.
+Metron Security Blogs
+
+5. User Interface Layer
+Console: The central interface for security analysts to interact with QRadar, view dashboards, investigate offenses, and manage configurations.
+
+🔗 Communication Flow
+Data Collection: Event and flow data are collected from various sources.
+
+Normalization: Collected data is normalized to a consistent format.
+
+Processing: Data is processed to apply correlation rules and generate offenses.
+
+Storage: Processed data is stored in Data Nodes for retention and analysis.
+
+Analysis: Analysts use the Console to investigate offenses and manage the system.
+DevOps School
+
+This architecture ensures that QRadar can efficiently collect, process, and analyze security data, providing comprehensive visibility into an organization's security posture.
