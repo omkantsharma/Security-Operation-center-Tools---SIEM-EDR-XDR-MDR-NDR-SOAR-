@@ -1,0 +1,44 @@
+🔧 Core QRadar Components
+Console
+
+Web interface for managing and monitoring QRadar.
+
+Central point for searching logs, creating rules, and viewing offenses.
+
+Event Collector
+
+Collects log data from various sources (e.g., firewalls, servers).
+
+Normalizes and forwards it to the Event Processor.
+
+Event Processor
+
+Processes and stores event data.
+
+Runs correlation rules to detect threats and generate offenses.
+
+Flow Collector
+
+Captures and processes network flow data (e.g., NetFlow, sFlow).
+
+Helps in traffic analysis and anomaly detection.
+
+Flow Processor
+
+Similar to Event Processor but for flow data.
+
+Stores, analyzes, and correlates network flows.
+
+Data Node
+
+Expands QRadar storage.
+
+Useful for retaining large amounts of historical log and flow data.
+
+App Host (optional)
+
+Runs QRadar apps (e.g., Use Case Manager, Threat Intelligence).
+
+Offloads processing from the console.
+
+Each component can be on separate servers (in distributed deployments) or combined (in an all-in-one setup)
